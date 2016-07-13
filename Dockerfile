@@ -17,5 +17,8 @@ EXPOSE 55555
 
 VOLUME /mnt/sync
 
+RUN groupadd -r btsync && useradd -r -g btsync btsync
+USER btsync
+
 ENTRYPOINT ["/opt/run_sync"]
 CMD ["--log", "--config", "/etc/btsync.conf"]
