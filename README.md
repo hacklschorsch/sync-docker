@@ -1,3 +1,8 @@
+Changes to upstream version: downgrade btsync version to be compatible with the rest of my devices.
+~ hacklschorsch, 2016-07-13
+
+-----------
+
 BitTorrent Sync
 ===============
 
